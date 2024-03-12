@@ -58,7 +58,7 @@ const MainPage = () => {
                 <div class="relative">
                   <input
                     type="text"
-                    class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    class="w-full rounded-lg  text-black p-4 pe-12 text-sm shadow-sm"
                     name="Enter Name"
                     placeholder="Enter Name"
                   />
@@ -66,7 +66,7 @@ const MainPage = () => {
                   <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="size-4 text-gray-400"
+                      class="size-4  text-black"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -97,14 +97,14 @@ const MainPage = () => {
                   <input
                     type="Email"
                     name="Enter Email"
-                    class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    class="w-full rounded-lg  text-black p-4 pe-12 text-sm shadow-sm"
                     placeholder="Enter Email"
                   />
 
                   <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="size-4 text-gray-400"
+                      class="size-4 text-black"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
