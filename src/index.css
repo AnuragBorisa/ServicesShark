@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* outline:2px solid red */
+}
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}
