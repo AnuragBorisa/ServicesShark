@@ -496,7 +496,7 @@ const MainPage = () => {
         </div>
       </section> */}
       <section className="flex flex-col px-16 py-16 justify-center items-center gap-16 w-full bg-blue-300">
-        <h1 className="text-4xl">Gartners reviews</h1>
+        <h1 className="text-4xl text-center">Gartners reviews</h1>
         <div className="flex xl:flex-row flex-col gap-8 xl:flex-wrap justify-center items-center">
           <div className="flex flex-col gap-2  xl:w-1/3  border-black border-2">
             <h1 className="text-3xl text-center text-nowrap">
