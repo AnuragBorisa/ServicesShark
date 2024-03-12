@@ -497,16 +497,16 @@ const MainPage = () => {
       </section> */}
       <section className="flex flex-col px-16 py-16 justify-center items-center gap-16 w-full bg-blue-300">
         <h1 className="text-4xl">Gartners reviews</h1>
-        <div className="flex xl:flex-row flex-col gap-8 flex-wrap justify-center items-center">
-          <div className="flex flex-col gap-2  w-1/3  border-black border-2">
-            <h1 className="text-3xl text-center">
+        <div className="flex xl:flex-row flex-col gap-8 xl:flex-wrap justify-center items-center">
+          <div className="flex flex-col gap-2  xl:w-1/3  border-black border-2">
+            <h1 className="text-3xl text-center text-nowrap">
             Increased Spending on Security:
             </h1>
             <p className="text-sm text-center">
             End-user spending on security and risk management in India is forecast to grow by 8.3% in 2023, reaching a total of $2.65 billion. This growth is attributed to the rise in digitalization, cloud applications, and remote work, which expose organizations to greater security risks
             </p>
           </div>
-          <div className="flex  flex-col gap-2 w-1/3  border-black border-2">
+          <div className="flex  flex-col gap-2 xl:w-1/3  border-black border-2">
             <h1 className="text-3xl text-center">
             Security Services Priority:
             </h1>
@@ -514,15 +514,15 @@ const MainPage = () => {
             Security services are expected to represent 40% of the overall end-user spending on security and risk management products and services in 2023. Many organizations in India engage security consulting and IT outsourcing companies due to a lack of in-house security capabilitie
             </p>
           </div>
-          <div className="flex flex-col gap-2 w-1/3 border-black border-2">
-            <h1 className="text-2xl text-center">
+          <div className="flex flex-col gap-2 xl:w-1/3 border-black border-2">
+            <h1 className="text-3xl text-center text-wrap">
             Infrastructure Protection and Cloud Security:
             </h1>
             <p className="text-sm text-center">
             Spending on infrastructure protection will surpass that on network security equipment due to the increase in remote workforce and cloud applications adoption. Cloud security end-user spending in India is forecasted to experience the highest growth rate among all segments in 2023,
             </p>
           </div>
-          <div className="flex flex-col gap-2 w-1/3 border-black border-2">
+          <div className="flex flex-col gap-2 xl:w-1/3 border-black border-2">
             <h1 className="text-3xl text-center">
             Challenging Security Myths:
             </h1>
