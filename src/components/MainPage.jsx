@@ -26,6 +26,9 @@ const MainPage = () => {
   };
   return (
     <>
+    <section className="flex py-8 px-16 h-10   justify-center bg-black">
+          <img src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1710221519/images/qrdk8umaz8zlcvnjw58t.png" className=" h-28"></img>
+    </section>
       <section className="  flex xl:flex-row flex-col px-16 py-16 justify-center   min-h-screen gap-16 xl:bg-[url('https://res.cloudinary.com/dhuagtzvw/image/upload/v1709987212/images/ce53tmj4eukpb1dpzpjh.jpg')] bg-[url('https://res.cloudinary.com/dhuagtzvw/image/upload/v1709988167/images/vv71e0wn0wxb7ueq0g2x.jpg')] text-slate-200">
         <div className=" relative  xl:w-2/3 flex flex-col justify-center items-start p-4 gap-8">
           <h1 className="xl:text-4xl text-4xl text-center ">We detect We protect</h1>
@@ -88,6 +91,43 @@ const MainPage = () => {
                 </div>
               </div>
 
+              <div>
+                <label for="PhoneNumber" class="sr-only">
+                  Email
+                </label>
+
+                <div class="relative">
+                  <input
+                    type="tel"
+                    name="Enter Phone Number"
+                    class="w-full rounded-lg  text-black p-4 pe-12 text-sm shadow-sm"
+                    placeholder="Enter Phone Number"
+                  />
+
+                  <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="size-4  text-black"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
               <div>
                 <label for="Email" class="sr-only">
                   Email
@@ -229,7 +269,7 @@ const MainPage = () => {
           <div className="flex flex-col gap-4 items-center justify-center text-center">
             <img
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709989815/images/gtbc92w1ziclsdncqrxe.png"
-              className=" h-52"
+              className="h-52"
               alt=""
             />
             <h1 className="text-3xl text-center">Comprehensive System Checkup</h1>
@@ -272,8 +312,8 @@ const MainPage = () => {
           </div>
           <div className="flex flex-col gap-4 items-center justify-center text-center">
             <img
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709989996/images/lifskpuaaw3eknapzahj.png"
-              className=" h-48"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1710230411/images/s4erjmupypniukgwnrlg.png"
+              className=" h-52"
               alt=""
             />
             <h1 className="text-3xl text-center">Proven Track Record</h1>
@@ -283,8 +323,8 @@ const MainPage = () => {
           </div>
           <div className="flex flex-col gap-4 items-center justify-center text-center">
             <img
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709989996/images/mmsxvmmzucvaazkoligk.png"
-              className=" h-40"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1710230411/images/brwf3azwf2b3z8r7c14x.png"
+              className=" h-52"
               alt=""
             />
             <h1 className="text-3xl text-center">Specialized Penetration Testing</h1>
@@ -455,8 +495,45 @@ const MainPage = () => {
           </div>
         </div>
       </section> */}
+      <section className="flex flex-col px-16 py-16 justify-center items-center gap-16 w-full bg-blue-300">
+        <h1 className="text-4xl">Gartners reviews</h1>
+        <div className="flex xl:flex-row flex-col gap-8 flex-wrap justify-center items-center">
+          <div className="flex flex-col gap-2  w-1/3  border-black border-2">
+            <h1 className="text-3xl text-center">
+            Increased Spending on Security:
+            </h1>
+            <p className="text-sm text-center">
+            End-user spending on security and risk management in India is forecast to grow by 8.3% in 2023, reaching a total of $2.65 billion. This growth is attributed to the rise in digitalization, cloud applications, and remote work, which expose organizations to greater security risks
+            </p>
+          </div>
+          <div className="flex  flex-col gap-2 w-1/3  border-black border-2">
+            <h1 className="text-3xl text-center">
+            Security Services Priority:
+            </h1>
+            <p className="text-sm text-center">
+            Security services are expected to represent 40% of the overall end-user spending on security and risk management products and services in 2023. Many organizations in India engage security consulting and IT outsourcing companies due to a lack of in-house security capabilitie
+            </p>
+          </div>
+          <div className="flex flex-col gap-2 w-1/3 border-black border-2">
+            <h1 className="text-2xl text-center">
+            Infrastructure Protection and Cloud Security:
+            </h1>
+            <p className="text-sm text-center">
+            Spending on infrastructure protection will surpass that on network security equipment due to the increase in remote workforce and cloud applications adoption. Cloud security end-user spending in India is forecasted to experience the highest growth rate among all segments in 2023,
+            </p>
+          </div>
+          <div className="flex flex-col gap-2 w-1/3 border-black border-2">
+            <h1 className="text-3xl text-center">
+            Challenging Security Myths:
+            </h1>
+            <p className="text-sm text-center">
+            Cybersecurity can generate significant value for enterprises, but security leaders need to challenge the myths that obscure its true value. Gartner suggests adopting a “Minimum Effective” mindset to maximize the impact of cybersecurity for the business.
+            </p>
+          </div>
+        </div>
+      </section>
       <section className="flex  flex-col px-16 py-16 justify-center items-center gap-8">
-        <h1 className="text-4xl">Get In Touch With Us Right Now!</h1>
+        <h1 className="text-4xl text-center">Get In Touch With Us Right Now!</h1>
         <a href="https://wa.me/+919909156984" target="_blank">
           <button
             type="button"
@@ -479,7 +556,7 @@ const MainPage = () => {
         <h2 className="text-3xl">Shark Cybertech</h2>
         <p className="text-center">
           {" "}
-          B Wing , 4007 - 4008, Arena Animation, The Retail Park, TRP Mall
+          B Wing , 4007 - 4008, The Retail Park, TRP Mall
           Rajyansh City, On Main BRTS Road, Ambli - Bopal Rd, Central Bopal,
           Bopal, Ahmedabad, Gujarat 380058
         </p>
