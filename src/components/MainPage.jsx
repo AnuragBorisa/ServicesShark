@@ -335,7 +335,7 @@ const MainPage = () => {
         </div>
       </section>
       <section className="flex  flex-col px-16 py-16 justify-center  gap-16  bg-blue-950 text-slate-100">
-        <h1 className="text-6xl text-center ">Tools Used </h1>
+        {/* <h1 className="text-6xl text-center ">Tools Used </h1> */}
         <div class="flex overflow-hidden space-x-16 group">
           <div class="flex space-x-16 animate-loop-scroll group-hover:paused">
             <img
@@ -353,7 +353,7 @@ const MainPage = () => {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
-              class="max-w-none w-72 h-20"
+              class="max-w-none  h-20"
               alt="Image 3"
             />
             <img
