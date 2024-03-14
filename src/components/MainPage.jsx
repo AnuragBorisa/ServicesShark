@@ -362,6 +362,54 @@ const MainPage = () => {
               class="max-w-none h-20 max-sm:h-10"
               alt="Image 4"
             />
+             <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 1"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 2"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
+              class="max-w-none  h-20 max-sm:h-10"
+              alt="Image 3"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 4"
+            />
+             <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 1"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 2"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
+              class="max-w-none  h-20 max-sm:h-10"
+              alt="Image 3"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 4"
+            />
             {/* <img
               loading="lazy"
               src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/5.png"
@@ -415,7 +463,7 @@ const MainPage = () => {
            
           </div>
           <div
-            class="flex space-x-16 animate-loop-scroll group-hover:paused"
+            class="flex xl:space-x-16 animate-loop-scroll group-hover:paused"
             aria-hidden="true"
           >
           <img
@@ -428,6 +476,78 @@ const MainPage = () => {
               loading="lazy"
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
               class="max-w-none h-20 max-sm:h-10" 
+              alt="Image 2"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
+              class="max-w-none  h-20 max-sm:h-10"
+              alt="Image 3"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 4"
+            />
+             <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 1"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 2"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
+              class="max-w-none  h-20 max-sm:h-10"
+              alt="Image 3"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 4"
+            />
+             <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 1"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 2"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
+              class="max-w-none  h-20 max-sm:h-10"
+              alt="Image 3"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 4"
+            />
+             <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
+              class="max-w-none h-20 max-sm:h-10"
+              alt="Image 1"
+            />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
+              class="max-w-none h-20 max-sm:h-10"
               alt="Image 2"
             />
             <img
