@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        'loop-scroll': 'loop-scroll 50s linear infinite',
+        'loop-scroll': 'loop-scroll 20s linear infinite',
       },
       keyframes: {
         'loop-scroll': {
