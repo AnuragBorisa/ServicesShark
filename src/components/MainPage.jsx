@@ -40,7 +40,7 @@ const MainPage = () => {
         <div className="xl:w-2/5 flex justify-center items-center">
           <div class="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8">
             <div class="mx-auto max-w-lg text-center">
-              <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+              <h1 class="text-2xl font-bold sm:text-3xl">Fortify Your Network - Initiate a Cyber Audit Now</h1>
 
               <p class="mt-4 text-gray-500">
               Embrace the shield of cybersecurity; your peace of mind, our command.
@@ -334,35 +334,35 @@ const MainPage = () => {
           </div>
         </div>
       </section>
-      {/* <section className="flex  flex-col px-16 py-16 justify-center  gap-16  bg-sky-200">
-        <h1 className="text-6xl text-center ">Our Clients</h1>
+      <section className="flex  flex-col px-16 py-16 justify-center  gap-16  bg-blue-950 text-slate-100">
+        <h1 className="text-6xl text-center ">Tools Used </h1>
         <div class="flex overflow-hidden space-x-16 group">
           <div class="flex space-x-16 animate-loop-scroll group-hover:paused">
             <img
               loading="lazy"
-              src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/13.png"
-              class="max-w-none "
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
+              class="max-w-none h-20"
               alt="Image 1"
             />
             <img
               loading="lazy"
-              src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/15.png"
-              class="max-w-none"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
+              class="max-w-none h-20"
               alt="Image 2"
             />
             <img
               loading="lazy"
-              src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/gtpl.png"
-              class="max-w-none w-72"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
+              class="max-w-none w-72 h-20"
               alt="Image 3"
             />
             <img
               loading="lazy"
-              src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/2.png "
-              class="max-w-none"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
+              class="max-w-none h-20"
               alt="Image 4"
             />
-            <img
+            {/* <img
               loading="lazy"
               src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/5.png"
               class="max-w-none"
@@ -411,38 +411,38 @@ const MainPage = () => {
               src="   https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/12.png"
               class="max-w-none"
               alt="Image 12"
-            />
+            /> */}
            
           </div>
           <div
             class="flex space-x-16 animate-loop-scroll group-hover:paused"
             aria-hidden="true"
           >
-            <img
+          <img
               loading="lazy"
-              src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/13.png"
-              class="max-w-none "
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
+              class="max-w-none h-20"
               alt="Image 1"
             />
             <img
               loading="lazy"
-              src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/15.png"
-              class="max-w-none"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
+              class="max-w-none h-20"
               alt="Image 2"
             />
             <img
               loading="lazy"
-              src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/gtpl.png"
-              class="max-w-none w-72"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
+              class="max-w-none  h-20"
               alt="Image 3"
             />
             <img
               loading="lazy"
-              src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/2.png "
-              class="max-w-none"
+              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
+              class="max-w-none h-20"
               alt="Image 4"
             />
-            <img
+            {/* <img
               loading="lazy"
               src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/5.png"
               class="max-w-none"
@@ -491,14 +491,14 @@ const MainPage = () => {
               src="   https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/12.png"
               class="max-w-none"
               alt="Image 12"
-            />
+            /> */}
           </div>
         </div>
-      </section> */}
-      <section className="flex flex-col px-16 py-16 justify-center items-center gap-16 w-full bg-blue-300">
+      </section>
+      <section className="flex flex-col px-16 py-16 justify-center items-center gap-16 w-full bg-black text-blue-50">
         <h1 className="text-4xl text-center">Gartners reviews</h1>
         <div className="flex xl:flex-row flex-col gap-8 xl:flex-wrap justify-center items-center">
-          <div className="flex flex-col gap-2  xl:w-1/3  border-black border-2">
+          <div className="flex flex-col gap-2  xl:w-1/3 border-lime-600 border-2">
             <h1 className="text-3xl text-center text-nowrap">
             Increased Spending on Security:
             </h1>
@@ -506,7 +506,7 @@ const MainPage = () => {
             End-user spending on security and risk management in India is forecast to grow by 8.3% in 2023, reaching a total of $2.65 billion. This growth is attributed to the rise in digitalization, cloud applications, and remote work, which expose organizations to greater security risks
             </p>
           </div>
-          <div className="flex  flex-col gap-2 xl:w-1/3  border-black border-2">
+          <div className="flex  flex-col gap-2 xl:w-1/3  border-lime-600 border-2">
             <h1 className="text-3xl text-center">
             Security Services Priority:
             </h1>
@@ -514,7 +514,7 @@ const MainPage = () => {
             Security services are expected to represent 40% of the overall end-user spending on security and risk management products and services in 2023. Many organizations in India engage security consulting and IT outsourcing companies due to a lack of in-house security capabilitie
             </p>
           </div>
-          <div className="flex flex-col gap-2 xl:w-1/3 border-black border-2">
+          <div className="flex flex-col gap-2 xl:w-1/3 border-lime-600 border-2">
             <h1 className="text-3xl text-center text-wrap">
             Infrastructure Protection and Cloud Security:
             </h1>
@@ -522,7 +522,7 @@ const MainPage = () => {
             Spending on infrastructure protection will surpass that on network security equipment due to the increase in remote workforce and cloud applications adoption. Cloud security end-user spending in India is forecasted to experience the highest growth rate among all segments in 2023,
             </p>
           </div>
-          <div className="flex flex-col gap-2 xl:w-1/3 border-black border-2">
+          <div className="flex flex-col gap-2 xl:w-1/3 border-lime-600 border-2">
             <h1 className="text-3xl text-center">
             Challenging Security Myths:
             </h1>
@@ -580,7 +580,7 @@ const MainPage = () => {
           </button>
         </a>
       </section>
-      <div class="fixed bottom-4 right-4">
+      <div class="fixed bottom-4 right-4 text-emerald-800">
         <a href="https://wa.me/+919909156984" target="_blank">
           <svg
             className=" "
