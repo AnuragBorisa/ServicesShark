@@ -1,7 +1,9 @@
 import React from "react";
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 const MainPage = () => {
   const formRef = useRef();
+  const navigate = useNavigate();
 
   const formSubmissionHandler = async (event) => {
     event.preventDefault();
@@ -11,6 +13,7 @@ const MainPage = () => {
     formData.append("access_key", "62c30cae-907e-47dd-ac59-81f8bc312d58");
 
     const response = await fetch("https://api.web3forms.com/submit", {
+
       method: "POST",
       body: formData,
     });
@@ -19,6 +22,7 @@ const MainPage = () => {
 
     if (data.success) {
       console.log(data);
+      navigate("/thankyou")
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -26,7 +30,7 @@ const MainPage = () => {
   };
   return (
     <>
-    <section className="flex py-8 px-16 h-10   justify-center bg-black">
+    <section className="flex  px-16  h-7   justify-center bg-black">
           <img src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1710221519/images/qrdk8umaz8zlcvnjw58t.png" className=" h-28"></img>
     </section>
       <section className="  flex xl:flex-row flex-col px-16 py-16 justify-center   min-h-screen gap-16 xl:bg-[url('https://res.cloudinary.com/dhuagtzvw/image/upload/v1709987212/images/ce53tmj4eukpb1dpzpjh.jpg')] bg-[url('https://res.cloudinary.com/dhuagtzvw/image/upload/v1709988167/images/vv71e0wn0wxb7ueq0g2x.jpg')] text-slate-200">
@@ -207,7 +211,10 @@ const MainPage = () => {
       </section>
      
       <section className=" flex  flex-col px-16 py-16 justify-center min-h-screen gap-16 ">
-      <h1 className="xl:text-6xl text-5xl text-center p-2">Why Choose Us?</h1>
+      <h1 className="xl:text-6xl text-5xl text-center ">Why Choose Us?</h1>
+      <p className="text-2xl text-center ">
+      Cybersecurity Excellence in Every Byte
+          </p>
         <div className="w-full grid xl:grid-cols-3 xl:grid-rows-2 grid-cols-1 grid-rows-1 p-4 gap-4 place-content-center place-items-center ">
           <div className="flex flex-col gap-4 items-center justify-center text-center">
             <img
@@ -525,7 +532,7 @@ const MainPage = () => {
           </button>
         </a>
       </section>
-      <div class="fixed bottom-4 right-4 text-emerald-800">
+      <div class="fixed bottom-8 right-8 text-emerald-800 bg-lime-100">
         <a href="https://wa.me/+919909156984" target="_blank">
           <svg
             className=" "
