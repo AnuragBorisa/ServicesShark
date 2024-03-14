@@ -66,28 +66,7 @@ const MainPage = () => {
                     placeholder="Enter Name"
                   />
 
-                  <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="size-4  text-black"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                      />
-                    </svg>
-                  </span>
+                
                 </div>
               </div>
 
@@ -104,28 +83,7 @@ const MainPage = () => {
                     placeholder="Enter Phone Number"
                   />
 
-                  <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
-                  <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="size-4  text-black"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                      />
-                    </svg>
-                  </span>
+                  
                 </div>
               </div>
               <div>
@@ -141,22 +99,7 @@ const MainPage = () => {
                     placeholder="Enter Email"
                   />
 
-                  <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="size-4 text-black"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                      />
-                    </svg>
-                  </span>
+                 
                 </div>
               </div>
 
@@ -262,9 +205,9 @@ const MainPage = () => {
           <p>– GTPL</p>
         </div>
       </section>
-      <h1 className="xl:text-6xl text-5xl text-center p-4">Why Choose Us?</h1>
-      <section className=" flex xl:flex-row flex-col px-16 py-16 justify-center min-h-screen gap-16 ">
-        
+     
+      <section className=" flex  flex-col px-16 py-16 justify-center min-h-screen gap-16 ">
+      <h1 className="xl:text-6xl text-5xl text-center p-2">Why Choose Us?</h1>
         <div className="w-full grid xl:grid-cols-3 xl:grid-rows-2 grid-cols-1 grid-rows-1 p-4 gap-4 place-content-center place-items-center ">
           <div className="flex flex-col gap-4 items-center justify-center text-center">
             <img
@@ -341,75 +284,28 @@ const MainPage = () => {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
-              class="max-w-none h-20 max-sm:h-10"
+              class=" max-w-none h-20 sm:h-16"
               alt="Image 1"
             />
             <img
               loading="lazy"
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
-              class="max-w-none h-20 max-sm:h-10"
+              class="max-w-none h-20 sm:h-16"
               alt="Image 2"
             />
             <img
               loading="lazy"
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
-              class="max-w-none  h-20 max-sm:h-10"
+              class="max-w-none  h-20 sm:h-16"
               alt="Image 3"
             />
             <img
               loading="lazy"
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
-              class="max-w-none h-20 max-sm:h-10"
+              class="max-w-none h-20 sm:h-16"
               alt="Image 4"
             />
-             <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 1"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 2"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
-              class="max-w-none  h-20 max-sm:h-10"
-              alt="Image 3"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 4"
-            />
-             <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 1"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 2"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
-              class="max-w-none  h-20 max-sm:h-10"
-              alt="Image 3"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 4"
-            />
+            
             {/* <img
               loading="lazy"
               src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/5.png"
@@ -469,99 +365,28 @@ const MainPage = () => {
           <img
               loading="lazy"
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
-              class="max-w-none h-20 max-sm:h-10"
+              class="max-w-none h-20 sm:h-16"
               alt="Image 1"
             />
             <img
               loading="lazy"
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
-              class="max-w-none h-20 max-sm:h-10" 
+              class="max-w-none h-20 sm:h-16" 
               alt="Image 2"
             />
             <img
               loading="lazy"
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
-              class="max-w-none  h-20 max-sm:h-10"
+              class="max-w-none  h-20 sm:h-16"
               alt="Image 3"
             />
             <img
               loading="lazy"
               src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
-              class="max-w-none h-20 max-sm:h-10"
+              class="max-w-none h-20 sm:h-16"
               alt="Image 4"
             />
-             <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 1"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 2"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
-              class="max-w-none  h-20 max-sm:h-10"
-              alt="Image 3"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 4"
-            />
-             <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 1"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 2"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
-              class="max-w-none  h-20 max-sm:h-10"
-              alt="Image 3"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 4"
-            />
-             <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 1"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 2"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png"
-              class="max-w-none  h-20 max-sm:h-10"
-              alt="Image 3"
-            />
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png"
-              class="max-w-none h-20 max-sm:h-10"
-              alt="Image 4"
-            />
+            
             {/* <img
               loading="lazy"
               src="https://www.sharkcybertech.com/wp-content/themes/sharkcybertech/assets/images/partners/5.png"
