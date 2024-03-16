@@ -68,6 +68,7 @@ const MainPage = () => {
                     class="w-full rounded-lg  text-black p-4 pe-12 text-sm shadow-sm"
                     name="Enter Name"
                     placeholder="Enter Name"
+                    required
                   />
 
                 
@@ -85,6 +86,7 @@ const MainPage = () => {
                     name="Enter Phone Number"
                     class="w-full rounded-lg  text-black p-4 pe-12 text-sm shadow-sm"
                     placeholder="Enter Phone Number"
+                    required
                   />
 
                   
@@ -101,6 +103,7 @@ const MainPage = () => {
                     name="Enter Email"
                     class="w-full rounded-lg  text-black p-4 pe-12 text-sm shadow-sm"
                     placeholder="Enter Email"
+                    required
                   />
 
                  
