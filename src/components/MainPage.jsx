@@ -42,159 +42,84 @@ const MainPage = () => {
           <p className="xl:text-3xl text-2xl text-center">As per your organization needs</p>
         </div>
         <div className="xl:w-2/5 flex justify-center items-center">
-          <div class="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8">
-            <div class="mx-auto max-w-lg text-center">
-              <h1 class="text-2xl font-bold sm:text-3xl">Fortify Your Network - Initiate a Cyber Audit Now</h1>
+  <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-lg text-center">
+      <h1 class="text-2xl font-bold sm:text-3xl">Fortify Your Network - Initiate a Cyber Audit Now</h1>
 
-              <p class="mt-4 text-gray-500">
-              Embrace the shield of cybersecurity; your peace of mind, our command.
-              </p>
-            </div>
+      <p class="mt-4 text-gray-500">
+        Embrace the shield of cybersecurity; your peace of mind, our command.
+      </p>
+    </div>
 
-            <form
-              action="#"
-              onSubmit={formSubmissionHandler}
-              method="POST"
-              class="mx-auto mb-0 mt-8 max-w-md space-y-4"
-            >
-              <div>
-                <label for="Name" class="sr-only">
-                  Name
-                </label>
+    <form
+      action="#"
+      onSubmit={formSubmissionHandler}
+      method="POST"
+      class="mx-auto mb-0 mt-8 max-w-md space-y-4"
+    >
+      <div>
+        <label for="name" class="sr-only">
+          Name
+        </label>
 
-                <div class="relative">
-                  <input
-                    type="text"
-                    class="w-full rounded-lg  text-black p-4 pe-12 text-sm shadow-sm"
-                    name="Enter Name"
-                    placeholder="Enter Name"
-                    required
-                  />
-
-                
-                </div>
-              </div>
-
-              <div>
-                <label for="PhoneNumber" class="sr-only">
-                  Email
-                </label>
-
-                <div class="relative">
-                  <input
-                    type="tel"
-                    name="Enter Phone Number"
-                    class="w-full rounded-lg  text-black p-4 pe-12 text-sm shadow-sm"
-                    placeholder="Enter Phone Number"
-                    required
-                  />
-
-                  
-                </div>
-              </div>
-              <div>
-                <label for="Email" class="sr-only">
-                  Email
-                </label>
-
-                <div class="relative">
-                  <input
-                    type="Email"
-                    name="Enter Email"
-                    class="w-full rounded-lg  text-black p-4 pe-12 text-sm shadow-sm"
-                    placeholder="Enter Email"
-                    required
-                  />
-
-                 
-                </div>
-              </div>
-
-              <div class="flex items-center justify-center">
-                <button
-                  type="submit"
-                  class="inline-block s rounded-lg w-full bg-blue-500 px-20 py-3 text-sm font-medium text-white"
-                >
-                  Sign in
-                </button>
-              </div>
-            </form>
-          </div>
+        <div class="relative">
+          <input
+            type="text"
+            id="name"
+            class="w-full rounded-lg text-black p-4 pe-12 text-sm shadow-sm"
+            name="name"
+            placeholder="Enter Name"
+            required
+          />
         </div>
-      </section>
-      <section className=" flex flex-col px-16 py-16 items-center min-h-screen gap-2 ">
-        <div className="w-full flex flex-col justify-center items-center text-center gap-8 p-4 ">
-          <h1 className="text-6xl text-center   ">Our Services</h1>
-          <p className="text-2xl text-center ">
-            Secure your website & your customer's network
-          </p>
+      </div>
+
+      <div>
+        <label for="phone" class="sr-only">
+          Phone Number
+        </label>
+
+        <div class="relative">
+          <input
+            type="tel"
+            id="phone"
+            class="w-full rounded-lg text-black p-4 pe-12 text-sm shadow-sm"
+            name="phone"
+            placeholder="Enter Phone Number"
+            required
+          />
         </div>
-        <div className="flex xl:flex-row flex-col flex-wrap justify-center items-center gap-16 ">
-          <div className=" flex flex-col items-center gap-4 w-80">
-            <img
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709535833/images/amknssazyw1tldysyq6x.png"
-              className="w-40"
-            ></img>
-            <h1 className="text-3xl text-center">Website Security Audit</h1>
-            <p className="text-sm text-center">
-              Most websites have vulnerabilities, bad scripting, risky third
-              party integrations. Get your website audited by our team of
-              experts within no time.
-            </p>
-          </div>
-          <div className="flex flex-col items-center gap-4 w-80">
-            <img
-              src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709535833/images/x87u4u2vo1lj7begzm1h.png"
-              className=""
-            ></img>
-            <h1 className="text-3xl text-center">
-              VAPT Audits as per Government Guidelines
-            </h1>
-            <p className="text-sm text-center">
-              Get VAPT done for anything that speaks IP. Get Assessment Reports,
-              Security Certificate post patch verification & Remedy Support from
-              our Security Experts.
-            </p>
-          </div>
-          <div className="flex flex-col items-center gap-4 w-80">
-            <img src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709535833/images/imyqxfhw4g9y7mfdfjw1.png"></img>
-            <h1 className="text-3xl text-center ">PCI DSS Scanning</h1>
-            <p className="text-sm text-center">
-              For storing, transmitting & processing payment card information,
-              your website needs PCI DSS certification to avoid data breaches
-              and protect your clients.
-            </p>
-          </div>
-          <div className="flex flex-col items-center gap-4 w-80">
-            <img src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709535833/images/amfc42g6bmivq677twep.png"></img>
-            <h1 className="text-3xl text-center">
-              Source Code Testing for Software Applications
-            </h1>
-            <p className="text-sm text-center">
-              Build security into your SDLC by integrating our SAST tool in your
-              network addressing security from all angles.
-            </p>
-          </div>
-          <div className="flex flex-col items-center gap-4 w-80">
-            <img src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709535832/images/vz3bal3leijy6xbhdhfg.png"></img>
-            <h1 className="text-3xl text-center">
-              Privileged Access Management
-            </h1>
-            <p className="text-sm text-center">
-              Misuse & abuse of privileges is the biggest source for data
-              breaches. Get a robust privileged access management system to
-              prevent insider threats, third party risks and advanced attacks.
-            </p>
-          </div>
-          <div className="flex flex-col items-center gap-4 w-80">
-            <img src="https://res.cloudinary.com/dhuagtzvw/image/upload/v1709535832/images/x0vgrhs6hdittphjtper.png"></img>
-            <h1 className="text-3xl text-center">Mobile Security</h1>
-            <p className="text-sm text-center">
-              A single mobile app that prevents tapping & hacking to ensure
-              seamless and highly secure communication on both the ends.
-            </p>
-          </div>
+      </div>
+
+      <div>
+        <label for="email" class="sr-only">
+          Email
+        </label>
+
+        <div class="relative">
+          <input
+            type="email"
+            id="email"
+            class="w-full rounded-lg text-black p-4 pe-12 text-sm shadow-sm"
+            name="email"
+            placeholder="Enter Email"
+            required
+          />
         </div>
+      </div>
+
+      <div class="flex items-center justify-center">
+        <button
+          type="submit"
+          class="inline-block rounded-lg w-full bg-blue-500 px-20 py-3 text-sm font-medium text-white"
+        >
+          Sign in
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
       </section>
       <section className="flex  xl:flex-row flex-col px-16 py-16  pb-32 items-center  justify-between bg-blue-100 gap-16">
         <div className="">
