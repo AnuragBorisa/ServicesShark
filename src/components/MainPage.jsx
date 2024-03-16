@@ -12,20 +12,23 @@ const MainPage = () => {
 
     formData.append("access_key", "62c30cae-907e-47dd-ac59-81f8bc312d58");
 
-    const response = await fetch("https://api.web3forms.com/submit", {
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
 
+    const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData,
-    });
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
 
-    const data = await response.json();
-
-    if (data.success) {
-      console.log(data);
-      navigate("/thankyou")
-      event.target.reset();
-    } else {
-      console.log("Error", data);
+    if (res.success) {
+     
+      formRef.current.reset();
+        navigate("/thankyou");
+      console.log("Success", res);
     }
   };
   return (
@@ -56,6 +59,7 @@ const MainPage = () => {
       onSubmit={formSubmissionHandler}
       method="POST"
       class="mx-auto mb-0 mt-8 max-w-md space-y-4"
+      ref={formRef}
     >
       <div>
         <label for="name" class="sr-only">
