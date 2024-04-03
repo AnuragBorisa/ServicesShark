@@ -1,14 +1,37 @@
 import React from "react";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 const MainPage = () => {
   const formRef = useRef();
   const navigate = useNavigate();
 
   const formSubmissionHandler = async (event) => {
+
+    
     event.preventDefault();
 
     const formData = new FormData(event.currentTarget);
+    const fullName = formData.get("name");
+    const email = formData.get("email");
+    const phoneNumber = formData.get("phone");
+    const services=true;  
+
+    axios
+      .post("https://sharklandingpagedemo.onrender.com/saveSpreadsheet/spreadsheet", {
+        fullName,
+        email,
+        phoneNumber,
+        services,
+      })
+      .then((res) => {
+        console.log(res.data.message);
+        formRef.current.reset();
+        navigate("/thankyou");
+      })
+      .catch((err) => {
+        console.log(err.response.data);
+      });
 
     formData.append("access_key", "62c30cae-907e-47dd-ac59-81f8bc312d58");
 
